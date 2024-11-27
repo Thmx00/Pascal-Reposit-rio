@@ -8,8 +8,8 @@ const
 
 begin
   writeln ('BEM - VINDO AO SISTEMA DE GESTÃO DE NOTAS PARA ADMISSÃO');
-  write ('Informe a nota do exame de Português: '); readLn (port);
-  write ('Informe a nota do exame de Matemática: '); readLn (mat);
+  write ('Informe a sua nota do exame de Português: '); readLn (port);
+  write ('Informe a sua nota do exame de Matemática: '); readLn (mat);
 
    media :=  mat*peso2 + port*peso1;
   clrscr ();
